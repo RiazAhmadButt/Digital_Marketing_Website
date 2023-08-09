@@ -1,0 +1,46 @@
+#service__div  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 1%;
+}
+
+#service__paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 1%;
+}
+
+.service__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 2%;
+}
+
+
+@media (max-width: 420px) {
+    #service__paragraph {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 768px) {
+   .pt-2{
+    width: 100%;
+   }
+   .cd{
+    padding: 0% !important;
+    margin: 0%;
+   } 
+   .ab{
+    padding: 0% !important;
+    margin: 0%;
+   } 
+  }
